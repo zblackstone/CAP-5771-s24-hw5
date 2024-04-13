@@ -10,15 +10,15 @@ def question1():
 
     # type: float
     # Calculate the probability.
-    answers['(a)'] = None
+    answers['(a)'] = 0.0288
 
     # type: float
     # Calculate the probability.
-    answers['(b)'] = None
+    answers['(b)'] = 0.002
 
     # type: float
     # Calculate the probability.
-    answers['(c)'] = None
+    answers['(c)'] = 0.08
     return answers
 
 
@@ -27,38 +27,38 @@ def question2():
     answers = {}
 
     # type: bool
-    answers['(a) A'] = None
+    answers['(a) A'] = True
 
     # type: bool
-    answers['(a) B'] = None
+    answers['(a) B'] = False
 
     # type: bool
-    answers['(a) C'] = None
+    answers['(a) C'] = False
 
     # type: bool
-    answers['(a) D'] = None
+    answers['(a) D'] = True
 
     # type: bool
-    answers['(b) A'] = None
+    answers['(b) A'] = True
 
     # type: False
-    answers['(b) B'] = None
+    answers['(b) B'] = False
 
     # type: bool
-    answers['(b) C'] = None
+    answers['(b) C'] = True
 
     # type: bool
-    answers['(b) D'] = None
+    answers['(b) D'] = False
 
     # type: eval_float
     # The formulas should only use the variable 'p'. The formulas should be
     # a valid Python expression. Use the functions in the math module as
     # required.
-    answers['(c) Weight update'] = None
+    answers['(c) Weight update'] = 0.424
 
     # type: float
     # the answer should be correct to 3 significant digits
-    answers['(d) Weight influence'] = None
+    answers['(d) Weight influence'] = 1.53
     return answers
 
 
@@ -67,10 +67,10 @@ def question3():
     answers = {}
 
     # type: string
-    answers['Agree?'] = None
+    answers['Agree?'] = 'No'
 
     # type: explain_string
-    answers['Explain'] = None
+    answers['Explain'] = "Alan's theory on coin flips to predict the stock market is flawed on two fronts. Coin flips are independent events so a sequence of flips cannot be considered a predictive model as there is no predictive indication. Also, the economy cannot be predicted by a coin flip as the two are unrelated." 
     return answers
 
 
@@ -79,13 +79,13 @@ def question4():
     answers = {}
 
     # type: bool
-    answers['(a) e=0.5, independent'] = None
+    answers['(a) e=0.5, independent'] = False
 
     # type: bool
-    answers['(b), independent'] = None
+    answers['(b), independent'] = True
 
     # type: bool
-    answers['(c) identical'] = None
+    answers['(c) identical'] = False
     return answers
 
 
@@ -95,19 +95,19 @@ def question5():
 
     # type: string
     # choices: ['i', 'ii', 'iii', 'iv']
-    answers['(a)'] = None
+    answers['(a)'] = 'iii'
 
     # type: string
     # choices: ['i', 'ii', 'iii', 'iv']
-    answers['(b)'] = None
+    answers['(b)'] = 'i'
 
     # type: string
     # choices: ['i', 'ii', 'iii', 'iv']
-    answers['(c)'] = None
+    answers['(c)'] = 'ii'
 
     # type: string
     # choices: ['i', 'ii', 'iii', 'iv']
-    answers['(d)'] = None
+    answers['(d)'] = 'iv'
     return answers
 
 
@@ -116,31 +116,31 @@ def question6():
     answers = {}
 
     # type: eval_float
-    answers['(a) C1-TPR'] = None
+    answers['(a) C1-TPR'] = 0.1
 
     # type: eval_float
-    answers['(a) C2-TPR'] = None
+    answers['(a) C2-TPR'] = 0.2
 
     # type: eval_float
-    answers['(a) C1-FPR'] = None
+    answers['(a) C1-FPR'] = 0.1
 
     # type: eval_float
-    answers['(a) C2-FPR'] = None
+    answers['(a) C2-FPR'] = 0.2
 
     # type: string
     # Hint: The random guess line in an ROC curve corresponds to TPR=FPR.
     # choices: ['yes', 'no']
-    answers['(b) C2 better classifier than C1?'] = None
+    answers['(b) C2 better classifier than C1?'] = 'no'
 
     # type: explain_string
-    answers['(b) C2 better classifier than C1? Explain'] = None
+    answers['(b) C2 better classifier than C1? Explain'] = "While C2 has a higher TPR, it also has an equally high FPR. It is predicting more positives at the risk at having more false positives. The proportion of TP to FP is the same between the two classifiers."
 
     # type: string
     # choices: ['TPR/FPR', 'precision/recall']
-    answers['(c) Which metric?'] = None
+    answers['(c) Which metric?'] = 'TPR/FPR'
 
     # type: explain_string
-    answers['(c) explain'] = None
+    answers['(c) explain'] = "Precision/Recall does not account for the difference of TP to FP. Recall is increased but so is the amount of FP. TPR/FPR is more suitable as it provides a metric to showcase each classifier's random guessing component."
     return answers
 
 
