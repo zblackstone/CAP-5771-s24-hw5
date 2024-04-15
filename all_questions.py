@@ -217,7 +217,7 @@ def question9():
     answers['(i) worst metric?'] = 'accuracy'
 
     # type: explain_string
-    answers['(ii) Explain your choices of best and worst metrics'] = 'F-measure combines precision and recall in a single statistic, making it the clear choice for best metric between the three. Due to imbalanced classes, accuracy can be skewed heavily as it only accounts for the total number of mistakes rather than the type of mistake (doesnt account for the discrepency between FP and FN in context).
+    answers['(ii) Explain your choices of best and worst metrics'] = 'F-measure combines precision and recall in a single statistic, making it the clear choice for best metric between the three. Due to imbalanced classes, accuracy can be skewed heavily as it only accounts for the total number of mistakes rather than the type of mistake (doesnt account for the discrepency between FP and FN in context).'
     return answers
 
 
