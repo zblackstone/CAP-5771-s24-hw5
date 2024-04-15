@@ -182,7 +182,7 @@ def question8():
     answers['(a) recall for C0'] = 'p'
 
     # type: eval_float
-    answers['(b) F-measure of C0'] = '2 * ((0.1 * p) / (0.1 + p)) 
+    answers['(b) F-measure of C0'] = '2 * ((0.1 * p) / (0.1 + p))'
 
     # type: string
     # choices: ['yes', 'no', 'unknown']
