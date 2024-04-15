@@ -179,10 +179,10 @@ def question8():
     answers['(a) precision for C0'] = 0.1
 
     # type: eval_float
-    answers['(a) recall for C0'] = 0.1
+    answers['(a) recall for C0'] = 0.5
 
     # type: eval_float
-    answers['(b) F-measure of C0'] = 
+    answers['(b) F-measure of C0'] = 0.167
 
     # type: string
     # choices: ['yes', 'no', 'unknown']
